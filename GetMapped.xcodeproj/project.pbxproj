@@ -75,6 +75,7 @@
 				A2A684992A7A8032007ECFDF /* Views */,
 				A2A6849A2A7A803A007ECFDF /* ViewModels */,
 				A2A684982A7A8026007ECFDF /* Models */,
+				D969B0682A817A4F006F5BDB /* SupportFiles */,
 				A2A684962A7A7EDF007ECFDF /* Assets.xcassets */,
 				A2A6848E2A7A7D01007ECFDF /* Preview Content */,
 			);
@@ -123,6 +124,13 @@
 				A2A6849E2A7A816B007ECFDF /* LocationsDataService.swift */,
 			);
 			path = DataServices;
+			sourceTree = "<group>";
+		};
+		D969B0682A817A4F006F5BDB /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
