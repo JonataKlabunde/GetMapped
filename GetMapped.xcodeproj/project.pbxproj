@@ -10,7 +10,6 @@
 		A22857472A7C2012004CEA3C /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22857462A7C2012004CEA3C /* LocationMapAnnotationView.swift */; };
 		A22857492A7C29C1004CEA3C /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22857482A7C29C1004CEA3C /* LocationDetailView.swift */; };
 		A2A684892A7A7D00007ECFDF /* GetMappedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A684882A7A7D00007ECFDF /* GetMappedApp.swift */; };
-		A2A6848B2A7A7D00007ECFDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A6848A2A7A7D00007ECFDF /* ContentView.swift */; };
 		A2A684902A7A7D01007ECFDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A6848F2A7A7D01007ECFDF /* Preview Assets.xcassets */; };
 		A2A684972A7A7EDF007ECFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A684962A7A7EDF007ECFDF /* Assets.xcassets */; };
 		A2A6849C2A7A8073007ECFDF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A6849B2A7A8073007ECFDF /* Location.swift */; };
@@ -24,10 +23,8 @@
 /* Begin PBXFileReference section */
 		A22857462A7C2012004CEA3C /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
 		A22857482A7C29C1004CEA3C /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
-		A232B6832A7D216300C2215F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A2A684852A7A7D00007ECFDF /* GetMapped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetMapped.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A684882A7A7D00007ECFDF /* GetMappedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMappedApp.swift; sourceTree = "<group>"; };
-		A2A6848A2A7A7D00007ECFDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2A6848F2A7A7D01007ECFDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2A684962A7A7EDF007ECFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A6849B2A7A8073007ECFDF /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -68,15 +65,12 @@
 		A2A684872A7A7D00007ECFDF /* GetMapped */ = {
 			isa = PBXGroup;
 			children = (
-				A232B6832A7D216300C2215F /* Info.plist */,
 				A2A684882A7A7D00007ECFDF /* GetMappedApp.swift */,
-				A2A6848A2A7A7D00007ECFDF /* ContentView.swift */,
 				A2A6849D2A7A8149007ECFDF /* DataServices */,
 				A2A684992A7A8032007ECFDF /* Views */,
 				A2A6849A2A7A803A007ECFDF /* ViewModels */,
 				A2A684982A7A8026007ECFDF /* Models */,
 				D969B0682A817A4F006F5BDB /* SupportFiles */,
-				A2A684962A7A7EDF007ECFDF /* Assets.xcassets */,
 				A2A6848E2A7A7D01007ECFDF /* Preview Content */,
 			);
 			path = GetMapped;
@@ -129,6 +123,7 @@
 		D969B0682A817A4F006F5BDB /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				A2A684962A7A7EDF007ECFDF /* Assets.xcassets */,
 			);
 			path = SupportFiles;
 			sourceTree = "<group>";
@@ -208,7 +203,6 @@
 				A2D110AB2A7AD5D600F22D0D /* LocationsListView.swift in Sources */,
 				A2EAD5282A7BD00B006D8F77 /* LocationPreviewView.swift in Sources */,
 				A2A684A32A7A887B007ECFDF /* LocationsViewModel.swift in Sources */,
-				A2A6848B2A7A7D00007ECFDF /* ContentView.swift in Sources */,
 				A2A684A12A7A82F8007ECFDF /* LocationsView.swift in Sources */,
 				A2A6849C2A7A8073007ECFDF /* Location.swift in Sources */,
 				A22857492A7C29C1004CEA3C /* LocationDetailView.swift in Sources */,
